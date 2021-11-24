@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <title>Health Blog</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand disabled" >Navbar</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="/contactUs.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/ratings.html">Ratings and comments</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <section>
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" href="styles.css">
+            <title>Contact Form</title>
+        </head>
+        <body>
+    <h1 style="text-align: center;">Ratings and cocmments</h1>
+    <p style="text-align: center;">Thank you for visiting my website. You can contact me if you have any queries. Don't forget fo give feedback about it !</p>
+    <div class="container">
+        
+        <form id="contact" class="form">
+            <div class="form-field">
+                <label for="firstname">Input blog's name</label>
+                <input type="text" name="firstname" id="firstname" placeholder="Blog's Name" autocomplete="off">
+                <small></small>
+            </div>
+
+            <div class="form-field">
+                <label for="email">Email:</label>
+                <input type="text" name="email" id="email" placeholder="Email ID" autocomplete="off">
+                <small></small>
+            </div>
+            <div class="form-field">
+                <label for="firstname">Ratings out of 10</label>
+                <input type="number" min="0" step="1" max="10">
+                <small></small>
+            </div>
+            <div class="form-field">
+                <label for="feedback">Comments about the blog</label>
+                <textarea id="feedback" name="feedback" placeholder="Comments" style="height:200px"></textarea>
+                <small></small>
+            </div>
+            <div class="form-field">
+                <input style="color:black;" type="submit" value="Submit">
+            </div>
+        </form>
+    </div>
+    <script src="script2.js"></script>
+
+</body>
+      </section>
+  </body>
+</html>
